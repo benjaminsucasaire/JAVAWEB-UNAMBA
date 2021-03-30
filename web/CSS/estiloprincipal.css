@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+background-image: url(../img/fondologin.png);
+    
+}
+
+nav ul{
+list-style: none;    
+    
+}
+nav a{
+    
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-family: cursive;
+    font-size: 17px;
+    background: royalblue;
+    
+}
+
+nav>ul>li{
+float: left;    
+    
+} 
+h1{
+    margin: auto;
+    background: #e4e8e8;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #564c4c;
+}
+nav a:hover{
+   background: cornflowerblue;
+   color: #000;
+}
+#frametodo{
+   margin: auto;
+   width: 1050px;
+   height: 535px;
+   border: 2px solid #1be8dc;
+    margin-top: 80px;
+    
+}
+

@@ -1,0 +1,83 @@
+*{
+padding: 0px;
+margin: 0px;
+/*permite que no sume los pading y los margin, para que no desencaje de la clase principal*/
+box-sizing: border-box;
+}
+body{
+
+background-image: url(../img/fondologin.png);
+}
+#formulario{
+    width: 350px;
+background: white;
+margin: auto;
+margin-top: 10px;
+border-radius: 6px;
+padding: 10px;
+box-shadow: 0px 0px 70px #000;
+}
+.cajas{
+    width: 100%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid cornflowerblue;
+
+}
+.boton{
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin: 5px;
+
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+#emptabla{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.0);
+    margin-top: 5px;
+    float: left;
+}
+
+#empleadoflex{
+    display:flex;
+    
+}
+
+table{
+    width: 600px;
+    background-color: rgba(0,0,0,0.0);
+    margin-top: 5px;
+/*border: 2px solid black;*/
+}
+thead{
+    background: #24303c;
+    color: white;
+ 
+}
+
+td{
+    border: 2px solid black;
+    color: black;
+    background: honeydew;
+}
+img{
+    /*para centrar mi imagen covirtiendo a bloque la imagen*/
+    display:block;
+/*para centrar mi imagen con margenes automaticos por cada lado*/
+margin:auto;  
+    
+}
+
+.iconos{
+    float: left;
+}

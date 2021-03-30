@@ -1,0 +1,10 @@
+*{
+padding: 0px;
+margin: 0px;
+/*permite que no sume los pading y los margin, para que no desencaje de la clase principal*/
+box-sizing: border-box;
+}
+body{
+
+background-image: url(../img/fondologin.png);
+}
